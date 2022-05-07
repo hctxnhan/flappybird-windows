@@ -11,7 +11,7 @@ namespace FlappyBird.Objects
         private Chimney _upChimney;
         private Chimney _downChimney;
 
-        const int DISTANCE_BETWEEN_CHIMNEYS = 500;
+        const int DISTANCE_BETWEEN_CHIMNEYS = 120;
 
         public Chimneys(Chimney upChimney, Chimney downChimney)
         {
@@ -23,7 +23,7 @@ namespace FlappyBird.Objects
         {
             int x = position.X;
             int y = position.Y;
-            _downChimney.SetPosition(new Point(x, y - DISTANCE_BETWEEN_CHIMNEYS));
+            _downChimney.SetPosition(new Point(x, y - DISTANCE_BETWEEN_CHIMNEYS - _downChimney.Rectangle.Height));
             _upChimney.SetPosition(position);
         }
 

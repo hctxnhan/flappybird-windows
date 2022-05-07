@@ -28,6 +28,7 @@ namespace FlappyBird.Manager
 
             _start = start;
             _end = end;
+
             _chimneys1.SetPosition(start);
             _chimneys2.SetPosition(new Point(start.X + 200, end.Y));
         }
