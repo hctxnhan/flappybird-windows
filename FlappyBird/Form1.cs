@@ -117,5 +117,10 @@ namespace FlappyBird
         {
             this.scoreText.Text = "Score: " + _gameManager.Score.ToString();
         }
+
+        private void scoreText_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

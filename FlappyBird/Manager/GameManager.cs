@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using FlappyBird.Objects;
@@ -56,6 +57,8 @@ namespace FlappyBird.Manager
             else
             {
                 _bird.Move();
+                SoundPlayer soundSwing = new SoundPlayer(Properties.Resources.sfx_wing);
+                soundSwing.Play();
             }
         }
 
@@ -81,6 +84,8 @@ namespace FlappyBird.Manager
         public void OnAvoidObstacle()
         {
             _score++;
+            SoundPlayer soundPoint = new SoundPlayer(Properties.Resources.sfx_point);
+            soundPoint.Play();
         }
 
         public void Reset()
@@ -104,6 +109,8 @@ namespace FlappyBird.Manager
                 if (_bird.IsCollideWith(item))
                 {
                     GameOver?.Invoke();
+                    SoundPlayer soundOver = new SoundPlayer(Properties.Resources.sfx_die);
+                    soundOver.Play();
                     break;
                 }
             }
