@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thanh\\source\\repos\\FlappyBird\\FlappyBird\\FlappyBird.csproj": {}
+    "E:\\2021 -2022\\2022\\Lập trình window\\flappybird-windows\\FlappyBird\\FlappyBird.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thanh\\source\\repos\\FlappyBird\\FlappyBird\\FlappyBird.csproj": {
+    "E:\\2021 -2022\\2022\\Lập trình window\\flappybird-windows\\FlappyBird\\FlappyBird.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thanh\\source\\repos\\FlappyBird\\FlappyBird\\FlappyBird.csproj",
+        "projectUniqueName": "E:\\2021 -2022\\2022\\Lập trình window\\flappybird-windows\\FlappyBird\\FlappyBird.csproj",
         "projectName": "FlappyBird",
-        "projectPath": "C:\\Users\\thanh\\source\\repos\\FlappyBird\\FlappyBird\\FlappyBird.csproj",
-        "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thanh\\source\\repos\\FlappyBird\\FlappyBird\\obj\\",
+        "projectPath": "E:\\2021 -2022\\2022\\Lập trình window\\flappybird-windows\\FlappyBird\\FlappyBird.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "E:\\2021 -2022\\2022\\Lập trình window\\flappybird-windows\\FlappyBird\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
