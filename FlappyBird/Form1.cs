@@ -61,6 +61,7 @@ namespace FlappyBird
             {
                 return;
             }
+            
 
             _gameManager.Update();
             _chimneysManager.Update();
@@ -119,6 +120,11 @@ namespace FlappyBird
         }
 
         private void scoreText_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
         {
 
         }

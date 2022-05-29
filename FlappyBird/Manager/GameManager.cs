@@ -56,9 +56,10 @@ namespace FlappyBird.Manager
             }
             else
             {
-                _bird.Move();
                 SoundPlayer soundSwing = new SoundPlayer(Properties.Resources.sfx_wing);
                 soundSwing.Play();
+                _bird.Move();
+                
             }
         }
 
@@ -82,10 +83,11 @@ namespace FlappyBird.Manager
         }
 
         public void OnAvoidObstacle()
-        {
+        { 
             _score++;
             SoundPlayer soundPoint = new SoundPlayer(Properties.Resources.sfx_point);
             soundPoint.Play();
+
         }
 
         public void Reset()
@@ -108,6 +110,7 @@ namespace FlappyBird.Manager
             {
                 if (_bird.IsCollideWith(item))
                 {
+                    
                     GameOver?.Invoke();
                     SoundPlayer soundOver = new SoundPlayer(Properties.Resources.sfx_die);
                     soundOver.Play();

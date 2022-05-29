@@ -169,7 +169,7 @@
             this.playGameButton.BackColor = System.Drawing.Color.Transparent;
             this.playGameButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.playGameButton.Image = ((System.Drawing.Image)(resources.GetObject("playGameButton.Image")));
-            this.playGameButton.Location = new System.Drawing.Point(129, 545);
+            this.playGameButton.Location = new System.Drawing.Point(126, 546);
             this.playGameButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.playGameButton.Name = "playGameButton";
             this.playGameButton.Size = new System.Drawing.Size(109, 61);
@@ -196,7 +196,7 @@
             this.gameTutorial.AutoSize = true;
             this.gameTutorial.BackColor = System.Drawing.Color.Transparent;
             this.gameTutorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.gameTutorial.Location = new System.Drawing.Point(105, 537);
+            this.gameTutorial.Location = new System.Drawing.Point(61, 510);
             this.gameTutorial.Name = "gameTutorial";
             this.gameTutorial.Size = new System.Drawing.Size(238, 31);
             this.gameTutorial.TabIndex = 11;
@@ -218,10 +218,10 @@
             // scoreText
             // 
             this.scoreText.AutoSize = true;
-            this.scoreText.BackColor = System.Drawing.Color.Transparent;
+            this.scoreText.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.scoreText.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.scoreText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.scoreText.Location = new System.Drawing.Point(12, 27);
+            this.scoreText.ForeColor = System.Drawing.Color.Olive;
+            this.scoreText.Location = new System.Drawing.Point(2, 641);
             this.scoreText.Name = "scoreText";
             this.scoreText.Size = new System.Drawing.Size(159, 46);
             this.scoreText.TabIndex = 13;
@@ -267,6 +267,7 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Flappy Bird";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.birdSprite)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groundSprite)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.upPipeSprite)).EndInit();

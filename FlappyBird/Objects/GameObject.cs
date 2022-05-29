@@ -43,7 +43,7 @@ namespace FlappyBird.Objects
 
         public bool IsVisible()
         {
-            return Position.X + Rectangle.Width/3 > 0;
+            return Position.X + Rectangle.Width > 0;
         }
         
         public void SetPosition(Point position)

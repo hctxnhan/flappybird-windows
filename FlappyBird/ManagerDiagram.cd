@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FlappyBird.Manager.ChimneysManager">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="FlappyBird.Manager.ChimneysManager.AvoidChimneys" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Manager\ChimneysManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAApAAAAAAAAAAAAIAEAAAAAAAAAAQAgAA=</HashCode>
+      <FileName>Manager\ChimneysManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlappyBird.Manager.GameManager">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="FlappyBird.Manager.GameManager.GameOverEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Manager\GameManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="FlappyBird.Manager.GameManager.GameStartEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Manager\GameManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="FlappyBird.Manager.GameManager.GameRestartEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Manager\GameManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAgAAQAAMCBgoBAAAIgAAAABAAAAESAAIAAACAAAA=</HashCode>
+      <FileName>Manager\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlappyBird.Manager.GroundManager">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAABAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Manager\GroundManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
